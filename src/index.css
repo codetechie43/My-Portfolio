@@ -1,13 +1,43 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0px !important;
+  padding: 0;
+  font-family: "Poppins", sans-serif; /* Changed to Poppins */
+  background-color: #1C1C27; /* Set background color to dark theme bg */
+  color: #F2F3F4; /* Set text color to primary */
+}
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 8px; /* Adjusted height */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #1C1E27; /* Adjusted track color */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #00FF00; /* Hacker green color */
+  border-radius: 6px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #00DD00; /* Darker green on hover */
+}
+
+::-webkit-backdrop-filter {
+  blur: 3px saturate(106%);
 }
