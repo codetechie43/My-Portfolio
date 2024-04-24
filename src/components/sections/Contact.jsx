@@ -135,7 +135,7 @@ const Contact = () => {
         "service_w9bog1h",
         "template_cb07qxg",
         form.current,
-        "SybVGsYS52j2TfLbi"
+        "IJ1VSm3KFgFAoJ73R"
       )
       .then(
         (result) => {
@@ -158,9 +158,9 @@ const Contact = () => {
         </Desc>
         <ContactForm onSubmit={handleSubmit}>
           <ContactTitle>Email Me 🚀</ContactTitle>
-          <ContactInput placeholder="aapka Email" name="from_email" />
-          <ContactInput placeholder="aapka naam" name="from_name" />
-          {/* <ContactInput placeholder="Subject" name="subject" /> */}
+          <ContactInput placeholder="Your Email" name="from_email" />
+          <ContactInput placeholder="Your Name" name="from_name" />
+          <ContactInput placeholder="Subject" name="subject" />
           <ContactInputMessage placeholder="Message" name="message" rows={4} />
           <ContactButton type="submit" value="Send" />
         </ContactForm>
