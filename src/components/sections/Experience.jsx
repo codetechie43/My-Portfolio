@@ -54,13 +54,13 @@ const Experience = () => {
   return (
     <Container id="Experience">
       <Wrapper>
-        <Title>Experience</Title>
+        <Title>Certifications</Title>
         <Desc
           style={{
             marginBottom: "40px",
           }}
         >
-          My work experience as a web developer and learning different
+          My  certifications and learning different
           Technologies and Skills.
         </Desc>
 
