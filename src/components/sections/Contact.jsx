@@ -160,7 +160,7 @@ const Contact = () => {
           <ContactTitle>Email Me 🚀</ContactTitle>
           <ContactInput placeholder="aapka Email" name="from_email" />
           <ContactInput placeholder="aapka naam" name="from_name" />
-          <ContactInput placeholder="Subject" name="subject" />
+          {/* <ContactInput placeholder="Subject" name="subject" /> */}
           <ContactInputMessage placeholder="Message" name="message" rows={4} />
           <ContactButton type="submit" value="Send" />
         </ContactForm>
