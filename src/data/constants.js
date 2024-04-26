@@ -204,7 +204,7 @@ export const experiences = [
     img: "https://udemy-certificate.s3.amazonaws.com/image/UC-aefda133-d309-4ca9-91de-c6307e4c96a9.jpg?v=1703533219000",
     role: "Cisco CCNA Packet Tracer Ultimate labs: CCNA 200-301 labs",
     company: "Udemy",
-    date: "Octomber 2023 - December 23",
+    date: "October 2023 - December 23",
     desc: "Accquired practical preparation for the CCNA certification exam from Cisco CCNA Packet Tracer Ultimate labs: CCNA 200-301 labs.",
     skills: [
       "Network Configuration",
