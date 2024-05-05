@@ -2,8 +2,8 @@ export const Bio = {
   name: "Sujal Khade",
   roles: [
     "Full Stack AI Developer",
-    "Network Security",
-    "Love✌️Code",
+    "Network Security Analyst",
+    "Cybersecurity Enthusiast",
     "Problem Solver",
   ],
   description:
